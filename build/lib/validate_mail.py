@@ -21,12 +21,10 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-Developer:
-Maria Irudaya Regilan J
-Pavithra K
-
-Tester:
-Ravi Shankar M
+Developed/ Tested By:
+Maria Irudaya Regilan J     (mariairegilan@gmail.com)
+Pavithra K                  (pavithrakalyan2000@gmail.com)
+Ravi Shankar M              (ravishankar2697@gmail.com)
 """
 
 import re

@@ -1,4 +1,3 @@
-"""
 MIT License
 
 Copyright (c) 2020 Britsa - britsa.tech@gmail.com
@@ -21,19 +20,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-Developer:
+___________________________________________________________________________________________
+Team:
 Maria Irudaya Regilan J
 Pavithra K
-
-Tester:
 Ravi Shankar M
-"""
-
-import re
-
-gmail = re.compile('^[a-z][a-z0-9.]+\\@gmail\\.com$') 
-yahoo = re.compile('^[a-z][a-z0-9_.]+\\@yahoo\\.(com|in)$') 
-outlook = re.compile('^[a-z][a-z0-9_.]+\\@(hotmail|outlook)\\.com$')
-
-def validate_email(mail_id: str) -> bool:
-      return (gmail.match(mail_id) or yahoo.match(mail_id) or outlook.match(mail_id))!=None
